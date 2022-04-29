@@ -62,7 +62,8 @@ return packer.startup(function(use)
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/darkplus.nvim"
-
+  use 'sainnhe/everforest'
+  
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
@@ -93,6 +94,8 @@ return packer.startup(function(use)
 
   -- Git
   use "lewis6991/gitsigns.nvim"
+  use 'mhinz/vim-signify' -- shows changes on files tracked by Git
+  use 'tpope/vim-fugitive' -- Git actions in vim
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
