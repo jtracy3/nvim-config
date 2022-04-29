@@ -94,8 +94,11 @@ return packer.startup(function(use)
 
   -- Git
   use "lewis6991/gitsigns.nvim"
-  use 'mhinz/vim-signify' -- shows changes on files tracked by Git
+  -- use 'mhinz/vim-signify' -- shows changes on files tracked by Git
   use 'tpope/vim-fugitive' -- Git actions in vim
+  
+  -- Go plugins
+  use "fatih/vim-go"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
